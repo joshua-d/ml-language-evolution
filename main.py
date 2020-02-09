@@ -20,7 +20,7 @@ def show_info(screen):
     screen.blit(info_1, (0, 0))
     pygame.display.flip()
 
-    pressed = False
+    pressed = True
     while True:
         start_tick = pygame.time.get_ticks()
         pygame.event.get()
